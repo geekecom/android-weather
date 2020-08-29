@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Current weather conditions-->
+        <!--Metric units-->
+    <string name="current_temp_celsius">%d°C</string>
+    <string name="current_feels_like_celsius">%d°C</string>
+    <string name="current_temp_max_celsius">%d°C</string>
+    <string name="current_temp_min_celsius">%d°C</string>
+    <string name="current_wind_speed_metric">%1$.1f km/h</string>
+        <!--Imperial units-->
+    <string name="current_temp_fahrenheit">%d°F</string>
+    <string name="current_feels_like_fahrenheit">%d°F</string>
+    <string name="current_temp_max_fahrenheit">%d°F</string>
+    <string name="current_temp_min_fahrenheit">%d°F</string>
+    <string name="current_wind_speed_imperial">%1$.1f mph</string>
+
+    <string name="current_humidity">%d %%</string>
+    <string name="current_pressure">%d mb</string>
+    <string name="current_time">%s</string>
+
+    <!--Hourly weather conditions-->
+    <string name="hourly_forecast_48h">Hourly Forecast (48h)</string>
+    <string name="hourly_time">%d h</string>
+    <string name="hourly_date">%1$d/%2$d</string>
+    <string name="hourly_precipitation">%.0f %%</string>
+
+    <!--Daily weather conditions-->
+    <string name="daily_forecast">Daily Forecast</string>
+
+    <!--Common-->
+    <string name="temp_celsius">%d°C</string>
+    <string name="temp_fahrenheit">%d°F</string>
+
+    <!-- Preference Titles -->
+    <string name="general">General</string>
+    <string name="sync_header">Sync</string>
+
+    <!--Preferences -->
+    <string name="units">Units</string>
+    <string name="units_preferences_key">units</string>
+    <string name="celsius_preferences_value">celsius</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="save">Save</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Menu Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!--Shared Preferences-->
+    <string name="location_from_search_key">locationFromSearch</string>
+    <string name="last_valid_location_key">lastValidLocation</string>
+    <string name="settings">Settings</string>
+
+</resources>
